@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9112D32"
+    android:padding="40dp"
+    tools:context=".view.MainActivity">
+
+    <Button
+        android:id="@+id/butAnimList"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="#524C91"
+        android:backgroundTintMode="add"
+        android:elevation="20dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/mAnimeList"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butSearAnim"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="#009688"
+        android:elevation="20dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/mSaeAnim"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butFavList"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#BF6D26"
+        android:elevation="20dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/mFavList"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butAnimList" />
+
+    <Button
+        android:id="@+id/butVideos"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#E91E63"
+        android:elevation="20dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/mVidAni"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butSearAnim" />
+
+    <Button
+        android:id="@+id/butStats"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#2B872F"
+        android:elevation="20dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/mStats"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butFavList" />
+
+    <Button
+        android:id="@+id/butUser"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#1783DA"
+        android:elevation="20dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/mainUser"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butVideos" />
+</androidx.constraintlayout.widget.ConstraintLayout>
