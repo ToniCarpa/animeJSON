@@ -90,6 +90,6 @@ public class DetailActivity extends AppCompatActivity {
 
 
         adapterRowVideo = new AdapterRowVideo(this, animevideos);
-        //recyclerView.setAdapter(adapterRowVideo);
+        recyclerView.setAdapter(null);
     }
 }
