@@ -15,57 +15,74 @@
         android:theme="@style/Theme.AnimeJSON"
         tools:targetApi="31">
         <activity
-            android:name=".StatsActivity"
-            android:exported="false">
+            android:name="view.StatsActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity"
+            tools:ignore="MissingClass">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".DetailActivity"
-            android:exported="false">
+            android:name="view.DetailActivity"
+            android:exported="false"
+            android:parentActivityName=".view.ListActivity"
+            tools:ignore="MissingClass">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".VideoActivity"
-            android:exported="false">
+            android:name="view.VideoActivity"
+            android:exported="false"
+            android:parentActivityName=".view.DetailActivity"
+            tools:ignore="MissingClass">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ListActivity"
-            android:exported="false">
+            android:name="view.ListActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity"
+            tools:ignore="MissingClass">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".SignUpActivity"
-            android:exported="false">
+            android:name="view.SignUpActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity"
+            tools:ignore="MissingClass">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".LoginActivity"
-            android:exported="false">
+            android:name="view.LoginActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity"
+            tools:ignore="MissingClass">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UserActivity"
-            android:exported="false">
+            android:name="view.UserActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity"
+            tools:ignore="MissingClass">
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".FavoriteActivity"
-            android:exported="false">
+            android:name="view.FavoriteActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity"
+            tools:ignore="MissingClass">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

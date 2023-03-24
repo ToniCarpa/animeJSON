@@ -35,6 +35,7 @@ public class SignUpActivity extends AppCompatActivity {
     String passwordV = textPassword.getText().toString();
     String phoneV = textPhone.getText().toString();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,7 +83,7 @@ public class SignUpActivity extends AppCompatActivity {
                     public void onResponse(String response) {
                         if (response.equals("User created")) {
                             Log.d("tag", response);
-                            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                            Intent intent = new Intent(getApplicationContext(), ListActivity.class);
                             startActivity(intent);
                         } else {
                             Log.d("tag", response);

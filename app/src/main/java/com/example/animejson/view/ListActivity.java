@@ -37,9 +37,9 @@ public class ListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list);
 
         Intent intent = getIntent();
-        String email = intent.getStringExtra("email");
+        String email = intent.getStringExtra(MainActivity.EMAIL_USER);
         urlJSON = Constants.LOGIN_USER_MAIL + email;
-
+        getAnimes();
 
     }
 
